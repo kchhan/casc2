@@ -168,9 +168,6 @@ unclassified:
     enforceUrl: false
     injectCcudExtension: false
     injectMavenExtension: false
-  jiraGlobalConfiguration:
-    sites:
-    - url: "https://jira-example.com/"
   junitTestResultStorage:
     storage: "file"
   location:
