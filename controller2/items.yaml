@@ -12,7 +12,4 @@ items:
   description: ''
   disabled: false
   displayName: somepipeline
-  properties:
-  - jiraProjectProperty:
-      siteName: https://jira-example.com/
   resumeBlocked: false
