@@ -1,0 +1,18 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: pipeline
+  name: somepipeline
+  concurrentBuild: true
+  definition:
+    cpsFlowDefinition:
+      sandbox: true
+      script: ''
+  description: ''
+  disabled: false
+  displayName: somepipeline
+  properties:
+  - jiraProjectProperty:
+      siteName: https://jira-example.com/
+  resumeBlocked: false
